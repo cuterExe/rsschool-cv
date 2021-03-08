@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3,
+ul {
+  margin: 5px 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-flow: row;
+  gap: 50px;
+}
+
+.flex-column {
+  flex-flow: column;
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portrait-border-radius {
+  border-radius: 30%;
+}
+.main-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-section section {
+  width: 70%;
+}
